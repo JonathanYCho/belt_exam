@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>User Travel Itinerary</title>
+	<style type="">
+		p{
+			margin-left: 525px;
+		}
+		#buttons{
+			margin-left: 525px;
+		}		
+	</style>
+</head>
+<body>
+	<div id="buttons">
+		<!-- These need to link us back to the homecreen and the logout screen-->
+		<a href="("/")">Home</a>
+		<a href="">Logout</a>
+	</div>
+	<!--need to insert user id here -->
+	<h1>Hello {{user.name}}</h1>
+	<table border ="1">
+		<tr>
+			<td>Destination</td><td>Travel Start Date</td><td>Travel End Date</td><td>Plan</td>
+		</tr>
+		<tr>
+			<td><a href="">Paris, France</a></td><td>May 26, 2015</td><td>May 30, 2015</td><td>Stroll at the Eiffle Tower</td>
+		</tr>
+		<tr>
+			<td><a href="">Bohai, UK</td><td>Aug 27, 2015</td><td>Sept 01, 2015</td><td>Meeting the Trouisers</td>
+		</tr>
+	</table>
+	<br>
+	<br>
+	<br>
+	<h3>Other User's Travels Plans</h3>
+	<table border = "1">
+		<tr>
+			<td>Name</td><td>Destinations</td><td>Travel Start Date</td><td>Travel End Date</td><td>Do You Want to Join?</td>
+		</tr>
+		<tr>
+			<td>Stephen King</td><td><a href ="">Singapore</a></td><td>July 10th, 2015</td><td>July 26, 2015</td><td><a href ="">Join</td>
+		</tr>
+		<tr>
+			<td>Sheila Fisher</td><td><a href ="">Sydney, Austrailia</a></td><td>Dec 10th, 2015</td><td>Dec 26, 2015</td><td><a href ="">Join</td>
+		</tr>
+		<tr>
+			<td>Tristan Lond</td><td><a href ="">Transylvania, Romania</a></td><td>Oct 31st, 2015</td><td>Nov 02, 2015</td><td><a href ="">Join</td>
+		</tr>		
+	</table>
+	<br>
+	<br>
+	<p><a href ="">Add Travel Plan</a></p>
+
+</body>
+</html>

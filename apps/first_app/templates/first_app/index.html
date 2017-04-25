@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Home Page</title>
+		<style type="text/css">
+			fieldset {
+				display: inline-block;
+				vertical-align: top;
+
+			}
+		</style>
+
+	</head>
+	<body>
+		<fieldset>
+			<legend><h1>Register</h1></legend>
+			<form class='' action="/create" method ='post'>
+				{% csrf_token %}
+				<p>Name: <input type="text" name="name" value=''></p>
+				<p>User Name: <input type="text" name="username" value=''></p>
+				<p>Password: <input type="text" name="password" value=''></p>
+				<p>Password Confirmation: <input type="text" name="passwordconfirm" value=''></p>
+
+				<input type="submit" name="" value='Add User'>
+			</form>
+		</fieldset>
+
+		<fieldset>
+			<legend><h1>Login</h1></legend>
+			<form class='' action="/create" method ='post'>
+				{% csrf_token %}
+				<p>User Name: <input type="text" name="username" value=''></p>
+				<p>Password: <input type="text" name="password" value=''></p>
+				<input type="submit" name="" value='Login'>
+			</form>
+		</fieldset>
+	</body>
+</html>
